@@ -47,8 +47,23 @@ The step involves building the LSTM model with two or three input layers and one
 
 <br>
 
-### 4. Predicting on the test dataset and evaluating using BLEU scores
+### 4. Predicting on the test dataset
 After the model is trained, it is tested on test dataset to see how it performs on caption generation for just 5 images. If the captions are acceptable then captions are generated for the whole test data. 
 
 ## Conclusion
 Implementing the model is a time consuming task as it involved lot of testing with different hyperparameters to generate better captions. The model generates good captions for the provided image but it can always be improved.
+<br>
+
+### Training Loss
+![](https://github.com/Coolsheru2526/Image-Caption-Generator/blob/main/outputs/Tensorboard.png?raw=true)
+
+<br>
+
+### Captions
+![](https://github.com/Coolsheru2526/Image-Caption-Generator/blob/main/outputs/test1.jpg?raw=true)
+![](https://github.com/Coolsheru2526/Image-Caption-Generator/blob/main/outputs/test2.jpg?raw=true)
+![](https://github.com/Coolsheru2526/Image-Caption-Generator/blob/main/outputs/test3.jpg?raw=true)
+![](https://github.com/Coolsheru2526/Image-Caption-Generator/blob/main/outputs/test4.jpg?raw=true)
+![](https://github.com/Coolsheru2526/Image-Caption-Generator/blob/main/outputs/test5.jpg?raw=true)
+
+
